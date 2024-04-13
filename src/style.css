@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Serif+SC&display=swap');
+
+body {
+  /* 设置默认字体大小 */
+  font-family: 'Noto Serif SC', 'Gowun Batang', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 清除默认样式 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+form,
+button,
+input,
+textarea,
+video,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 清除列表样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 清除链接样式 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 清除表单元素样式 */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+}
